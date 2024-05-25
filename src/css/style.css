@@ -82,8 +82,9 @@ a{
 .right_side .grid_sub_contdnt .btn a{
     padding: 8px 16px;
     border: 0;
+    /* background: #290ce4; */
     background: #9CDCFE;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .right_side .grid_sub_contdnt {}
 .right_side{}
