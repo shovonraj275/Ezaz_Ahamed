@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.ml_para {
+    margin-left: 30px;
+}
+.main_div .left_content{
+   width: 35%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #1F1815;
+    color: #fff;
+    text-align: center;
+
+}
+.main_div .left_content img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #9CDCFE;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.main_div .left_content .name_border{
+    border-bottom: 2px dotted;
+}
+.main_div .flex{
+    padding-top: 30%;
+
+}
+.main_div  .right_side{
+   margin-left: 35%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+}
+.right_side h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 3% 0 3% 0;
+
+}
+.right_side .grid_sub{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+.about_us_para{
+    text-align: justify;
+}
+.right_side .grid_sub_contdnt{
+    border: 2px solid #9CDCFE;
+}
+.right_side .grid_sub_contdnt img{
+    width: 100%;
+    height: 250px;
+}
+.right_side .grid_sub_contdnt h3{
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 25px;
+}
+.right_side .grid_sub_contdnt .projeet_para{
+    text-align: justify;
+}
+.right_side .grid_sub_contdnt .button_area{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.right_side .grid_sub_contdnt .btn {
+    border: 0;
+}
+.right_side .grid_sub_contdnt .btn a{
+    padding: 8px 16px;
+    border: 0;
+    background: #9CDCFE;
+    color: #fff;
+}
+.right_side .grid_sub_contdnt {}
+.right_side{}
+.right_side{}
+.right_side{}
