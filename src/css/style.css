@@ -51,22 +51,21 @@ a {
 }
 
 .right_side .social_link {}
-
-.social_link a .fa {
+.fa {
     font-size: 25px;
     margin-top: 5%;
     padding: 2%;
 }
 
-.social_link a .github {
+a  .github {
     color: #fff;
 }
 
-.social_link a .whatsapp {
+a .whatsapp {
     color: green;
 }
 
-.social_link a .telegram {
+a .telegram {
     color: #29A9EA;
 }
 
@@ -119,6 +118,7 @@ a {
 .btncv {
     text-align: center;
     padding-top: 10px;
+    
 }
 
 .btn,
@@ -172,8 +172,8 @@ a {
         display: grid;
     }
 
-    .social_link {
-        display: none;
+    .social_Link {
+        display: none !important;
     }
 
     .right_side .grid_sub {
