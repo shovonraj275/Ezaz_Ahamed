@@ -43,6 +43,21 @@ a{
     padding-right: 2%;
     padding-top: 5%;
 }
+.right_side .social_link{}
+.social_link a .fa{
+    font-size: 25px;
+    margin-top: 5%;
+    padding: 2%;
+}
+.social_link a .github{
+    color: #fff;
+}
+.social_link a .whatsapp{
+    color: green;
+}
+.social_link a .telegram{
+    color: #29A9EA;
+}
 .right_side h1{
     text-align: center;
     font-size: 35px;
