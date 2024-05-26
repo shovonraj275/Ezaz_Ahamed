@@ -91,11 +91,13 @@ a {
 
 .right_side .grid_sub_contdnt {
     border: 2px solid #9CDCFE;
+    border-radius: 20px;
 }
 
 .right_side .grid_sub_contdnt img {
     width: 100%;
     height: 250px;
+    border-radius: 20px 20px  0px 0px;
 }
 
 .right_side .grid_sub_contdnt h3 {
@@ -135,7 +137,7 @@ a {
 }
 
 .sm_social {
-    width: 97.6%;
+    width: auto;
     text-align: center;
     background: #1F1815;
     padding: 12px;
@@ -152,7 +154,7 @@ a {
 
     .main_div .left_content {
         width: 100%;
-        height: fit-content;
+        height: auto;
         top: 0;
         left: 0;
         background: #1F1815;
@@ -197,11 +199,17 @@ a {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
 
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .right_side .grid_sub{
+        grid-template-columns: auto;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
