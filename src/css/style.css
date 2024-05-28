@@ -103,6 +103,7 @@ a .telegram {
     padding-bottom: 2%;
     text-align: center;
     font-size: 25px;
+    text-transform: capitalize;
 }
 
 .right_side .grid_sub_contdnt .projeet_para {
@@ -115,6 +116,9 @@ a .telegram {
     margin: 20px 0;
 }
 
+.btncv a {
+    color: #000;
+}
 .btncv {
     text-align: center;
     padding-top: 10px;
@@ -134,6 +138,7 @@ a .telegram {
     background: #9CDCFE;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
+    border-radius: 8px;
 }
 
 .sm_social {
@@ -146,6 +151,109 @@ a .telegram {
 
 .sm_social a {
     padding: 10px;
+}
+#Contract_form{
+    padding: 20px 0;
+    border-radius: 8px;
+}
+#Contract_form .Contact_bg{
+    
+    margin-bottom: 20px;    
+}
+#Contract_form .fa{
+    padding-top: 0;
+}
+#Contract_form .grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+#Contract_form .grid .border{
+       background: #9cdcfe;
+    border-radius: 20px;
+}
+#Contract_form .sub_grrid_content {
+    padding: 25px 15px;
+    /* text-align: center;   */
+ 
+}
+#Contract_form .sub_grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+#Contract_form .align_center{
+    text-align: center;
+}
+#Contract_form a{
+    font-size: 20px;
+    color: #000;
+}
+#Contract_form{}
+
+#Contract_form input{
+        display: block;
+        width: 98%;
+        padding: 5px;
+        border: 2px solid #9CDCFE;
+        border-radius: 7px;
+    
+}
+.textarea{
+    margin-top: 15px;
+}
+#Contract_form textarea{
+    width: 98%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #9CDCFE;
+    border-radius: 7px;
+}
+
+#skil .grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 5px;
+}
+.skillbar .percent {
+    right: 0;
+    color: #000;
+    font-weight: 700;
+    left: 50%;
+}
+.skillbar .title {
+    background-color: rgba(0,0,0,.6);
+    height: 100% !important;
+    width: 85px;
+    text-align: center;
+    left: 0;
+    color: #f0f0f0;
+    border-radius: 5px 0 0 5px;
+}
+.skillbar.bootstrap .title {
+    background-color: #7510f1;
+}
+.skillbar.bootstrap .filled {
+    background-color: #7510f1c8;
+}
+.skillbar.tailwindcss .title {
+    background-color: #38BDF8;
+}
+.skillbar.tailwindcss .filled {
+    background-color: #38bff8d2;
+}
+.skillbar.wordpress .title {
+    background-color: #23282D;
+}
+.skillbar.wordpress .filled {
+    background-color: #23282dbe;
+}
+.skillbar.php .title {
+    background-color: #7377AD;
+}
+.skillbar.php .filled {
+    background-color: #7377add0;
 }
 
 
@@ -195,7 +303,56 @@ a .telegram {
     .sm_social{
         display: block;
     }
-
+    #Contract_form{
+        padding: 20px 0;
+    }
+    #Contract_form .grid{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto;
+    }
+    #Contract_form input{
+            display: block;
+            width: 98%;
+            padding: 5px;
+            border: 2px solid #9CDCFE;
+        
+    }
+    .textarea{
+        margin-top: 15px;
+    }
+    #Contract_form textarea{
+        width: 93%;
+        height: 150px;
+        padding: 10px;
+        border: 2px solid #9CDCFE;
+    }
+    #Contract_form .sub_grid {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.skillbar {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+#Contract_form .sub_grrid_content {
+    padding: 8px 15px;
+    text-align: center;
+}
+#skil .grid{
+    display: grid;
+    grid-template-columns: auto  ;
+    gap: 5px;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -209,6 +366,16 @@ a .telegram {
     .right_side .grid_sub{
         grid-template-columns: auto;
     }
+    .main_div .right_side {
+    margin-left: 42%;
+    padding: 5% 2%;
+}
+    #Contract_form .sub_grid {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
