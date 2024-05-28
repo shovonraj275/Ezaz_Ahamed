@@ -280,9 +280,9 @@
                         </div>
                         <div class="grid_content">
                             <div class="skillbar js">
-                                <div class="filled" data-width="50%"></div>
-                                <span class="title">JS</span>
-                                <span class="percent">50%</span>
+                                <div class="filled" data-width="60%"></div>
+                                <span class="title">Javascript</span>
+                                <span class="percent">60%</span>
                             </div>
                         </div>
                         <div class="grid_content">
@@ -329,7 +329,9 @@
     <script src="./src/js/an-skill-bar.js"></script>
     <script>
         $(document).ready(function () {
-            $('.skillbar').skillbar();
+            $('.skillbar').skillbar({
+                speed: 3000
+            });
         });
     </script>
 </body>
